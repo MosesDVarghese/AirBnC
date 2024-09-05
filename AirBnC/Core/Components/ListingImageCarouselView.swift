@@ -20,7 +20,7 @@ struct ListingImageCarouselView: View {
             ForEach(images, id: \.self) { image in
                 Image(image)
                     .resizable()
-                    .scaledToFit()
+                    .scaledToFill()
             }
         }
         .tabViewStyle(.page)

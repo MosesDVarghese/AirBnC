@@ -20,10 +20,8 @@ struct ListingItemView: View {
         VStack(spacing: 8) {
             // images
             ListingImageCarouselView()
-                .frame(height: 320)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-            
-            // listing details
+                .frame(width: 370, height: 320)
+                .cornerRadius(15)
             
             HStack(alignment: .top) {
                 // details
